@@ -10,12 +10,16 @@ body {
 
 }
 .links {
-    width: 350px;
+    width: 100%;
     height: 76px;
     display: flex;
     flex-direction:column;
     gap: 15px;
     flex-wrap: wrap;
+}
+
+.links ul {
+    width: 100%;
 }
 .politicas ul{
     height: 40px;
@@ -49,11 +53,14 @@ body {
     gap: 10px;
 }
 .empresas {
-    width: 350px;
+    width: 100%;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: flex-end;
+}
+.empresas ul {
+    width: 100%;
 }
 .baixar {
     height: 280px;

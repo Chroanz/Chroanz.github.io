@@ -68,6 +68,9 @@
     .equipes h2 {
         font-size: 24px;
     }
+    .equipes div {
+        width: 100%;
+    }
     .itens {
         height: 460px;
         box-sizing: border-box;

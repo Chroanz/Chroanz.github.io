@@ -1,0 +1,197 @@
+header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    background-color: #0F224A;
+}
+.hambur {
+  display: none;
+}
+summary{
+   box-sizing: border-box; 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 6px 18px; 
+   font-size: 11px; 
+   letter-spacing: 1.5px; 
+   border: 2px solid #24cbaa; 
+   border-radius: 999px; 
+   cursor: pointer; 
+   color: #fff; 
+}
+nav ul, .mobilemenu ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a, .mobilemenu ul li a{
+    padding: 4px 16px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border: 2px solid rgba(0,0,0,0);
+    color: #fff;
+    border-radius: 999px;
+    transition: border .3s ease;
+    text-decoration: none;
+}
+nav ul li a:hover, .mobilemenu ul li a:hover{
+  border: 2px solid #fff; 
+  border-radius: 999px; 
+}
+.mobilemenu {
+  display: none;
+}
+.mobilemenuicon {
+  display: none;
+}
+.video{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: #0F224A;
+  color: #fff;
+  padding: 2% 5%;
+}
+.resp {
+  display: none;
+}
+.desk, .resp {
+  width: 100%;
+  border: #fff solid 20px;
+}
+.meio{
+  box-sizing: border-box;
+    display: flex;
+    background: linear-gradient(90deg, rgba(232, 128, 183, 1) 0%, rgba(118, 208, 255, 1) 29%, rgba(153, 222, 48, 1) 65%, rgba(234, 191, 55, 1) 100%);
+    align-items: center;
+    gap: 40px;
+    padding: 5% 10%;
+    line-height: 120%;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texto h1{
+    font-size: 32px;
+    font-weight: bolder;
+    width: auto;
+    line-height: 1.2;
+    letter-spacing: .3px;
+    color: #0F224A;
+}
+.texto p{
+    display: block;
+    color: #0F224A;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mais_informacoes button{
+    font: 1rem lato, sans-serif;
+    font-weight: 700;
+    border: 2px solid #0061af;
+    padding: 8px 24px;
+    border-radius: 999px;
+    background-color: #fff;
+    color: #0061af;
+    cursor: pointer;
+}
+.mais_informacoes button:hover {
+  background: #D1EEFD;
+}
+.final{
+  box-sizing: border-box;
+  background-image: url(../assets/img/fundo.png.png);
+  height: 800px;
+  padding: 3% 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2%;
+}
+.novidades{
+  box-sizing: border-box;
+  text-align: center;
+  color:#18242E;
+  font-weight: 900;
+  font-size: 33px;
+  padding: 3%;
+}
+.colum1, .colum2{
+  display: flex;
+  gap: 3%;
+
+}
+.colum1foto1, .colum1foto2{
+ width: 35%;
+}
+.colum1{
+  height: 305px;
+}
+.colum2{
+  height: 198px;
+}
+.colum1foto1{
+  background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url(../assets/img/foto1.jpg);
+}
+.colum1foto2{
+  background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url(../assets/img/colum1foto22.jpg);
+}
+.colum2foto1{
+  background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),  url(../assets/img/bgfoto3.jpg);
+}
+.colum2foto2{
+  background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url(../assets/img/bgfoto4.jpg);
+}
+.colum2foto3{
+   background:linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url(../assets/img/bgfoto5.jpg);
+   
+}
+.colum1foto1, .colum1foto2, .colum2foto1, .colum2foto2, .colum2foto3{
+  height: 100%;
+  border-radius: 12px;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+ }
+.colum1 div{
+  width: 50%;
+  background-size: cover;
+}
+.mais_noticias{
+  display: flex;
+  justify-content: center;
+}
+.mnoticias{
+  font: 1rem lato, sans-serif;
+  font-weight: 700;
+  border: 2px solid #0061af;
+  padding: 8px 24px;
+  border-radius: 999px;
+  background-color: #fff;
+  color: #0061af;
+  cursor: pointer;
+}
+.mnoticias:hover {
+  background: #D1EEFD;
+}
+.data{
+  font-size: 12px;
+}

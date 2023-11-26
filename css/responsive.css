@@ -1,0 +1,152 @@
+@media screen and (max-width: 900px) { 
+    .info {
+        height: 260px;
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .politicas ul {
+        height: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        gap: 20px;
+        padding: 0;
+    }
+    .listas {
+        height: 300px;
+        flex-direction: column;
+        align-items: space-between;
+        justify-content: center;
+        padding: 0;    
+        gap: 20px;
+    }
+    .empresas {
+        justify-content: center;
+        gap: 10px;
+    }
+    .baixar {
+        height: 600px;
+    }
+    .baixar article {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .lojas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .baixar h2 {
+        width: 70%;
+        text-align: center;
+        font-size: 24px;
+    }
+    .baixar div {
+        gap: 50px;
+        align-items: center;
+    }
+    .equipes {
+        height: 500px;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .equipes figure, .equipes article {
+        width: 100%;
+    }
+    .equipes article {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .equipes figure img {
+        height: 100%;
+        width: 100%;
+    }
+    .equipes p {
+        font-size: 16px;
+        width: 100%;
+    }
+    .equipes h2 {
+        font-size: 24px;
+    }
+    .itens {
+        height: 460px;
+        box-sizing: border-box;
+        padding: 30px;
+        background: url(../assets/img/backgcurto.webp);
+        background-size: cover;
+        background-position: top;
+    }
+    .itens h2 {
+        font-size: 28px;
+    }
+    .capture {
+        background: url(../assets/img/bgazulfods.webp);
+        padding: 20px;
+        height: 260px;
+    }
+    .capture article, .capture p {
+        height: 50%;
+        width: 100%;
+    }
+    .capture h2, .capture h3 {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .capture p {
+        font-size: 16px;
+    }
+    .sapo {
+        display: block;
+    }
+    .meio {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .final div {
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    }
+    .final div div {
+    height: 100%;
+    width: 100%;
+    }
+    nav, .botao {
+    display: none;
+    }
+    .mobilemenuicon {
+    display: block;
+    }
+    .mobilemenuicon button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    }
+
+    .mobilemenu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobilemenu li {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5% 0;
+      }
+    .mobilemenu {
+        height: 90vh;
+        width: 100%;
+        background: rgba(8,34,78,.9);
+    }
+    header {
+        flex-wrap: wrap;
+    }
+}

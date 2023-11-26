@@ -1,0 +1,196 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.listas {
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 160px;
+
+}
+.links {
+    width: 350px;
+    height: 76px;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.politicas ul{
+    height: 40px;
+    background-color: #E2F7F7;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 400px;
+}
+.politicas li a {
+    text-decoration: none;
+    color: #000;
+
+}
+.info {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    padding: 0 160px;
+    text-align: center;
+    line-height: 110%;
+}
+.info p, .listas li {
+    font-size: 12px;
+}
+.redes {
+    display: flex;
+    gap: 10px;
+}
+.empresas {
+    width: 350px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.baixar {
+    height: 280px;
+    display: flex;
+    background: linear-gradient(344deg, rgba(170,229,137,1) 0%, rgba(54,181,140,1) 0%, rgba(170,229,137,1) 100%);    align-items: center;
+    justify-content: center;
+}
+.baixar article {
+    display: flex;
+    align-items: last baseline;
+    gap: 30px;
+
+}
+.baixar h2 {
+    width: 290px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 1px;
+}
+.baixar div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.baixar ul {
+    width: 65%;
+    display: flex;
+    gap: 10px;
+}
+.equipes {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-between;
+    align-items: center;
+    height: 480px;
+    background: url(../assets/img/bgequipes.webp);
+    color: #fff;
+    background-size: cover;
+    background-position: top;
+}
+.equipes figure {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    width: 50%;
+}
+.equipes figure img {
+    width: 100%;
+    height: 80%;
+}
+.equipes article {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.equipes h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+.equipes div {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.equipes p {
+    width: 450px;
+    line-height: 150%;
+    font-size: 16px;
+}
+.itens {
+    box-sizing: border-box;
+    padding: 70px 0 0 0;
+    color: #18242E;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 750px;
+    background: url(../assets/img/bgitens.webp);
+    gap: 10px;
+}
+.itens h2, .itens p {
+    text-align: center;
+    width: 100%;
+    line-height: 150%;
+}
+.itens h2 {
+    font-weight: bolder;
+    font-size: 36px;
+}
+.capture {
+    box-sizing: border-box;
+    display: flex;
+    line-height: 130%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    gap: 30px;
+    color: #fff;
+    background: url(../assets/img/bgcapture.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+.capture article{
+    width: 100%;
+}
+.capture p {
+    width: 450px;
+}
+.capture h2 {
+    font-weight: bold;
+}
+.capture article {
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.capture-text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 150%;
+
+}
+.sapo {
+    display: none;
+    height: 390px;
+    width: 100%;
+    background: url(../assets/img/bgsapocurto.webp);
+    background-size: cover;
+    background-position: top;
+}
